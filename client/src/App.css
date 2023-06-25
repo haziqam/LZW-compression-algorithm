@@ -86,6 +86,10 @@ header h2 {
     border-style: none;
 }
 
+.btn-submit:hover {
+    background-color: #2d4f65;
+}
+
 .error-message {
     color: red;
 }
