@@ -7,6 +7,10 @@ const app = express()
 app.use(express.json())
 // app.use(express.urlencoded({extended: false}))
 
+app.get("/", (req, res) => {
+  res.send("<h1>Request successful</h1>")
+})
+
 app.post("/compressText", (req, res) => {
   const compressedInDecimal = lzw.compress(req.body.text)
   const compressedInBinary = util.decToBin(compressedInDecimal)

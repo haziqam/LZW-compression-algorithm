@@ -105,8 +105,9 @@ function TextForm() {
           <label htmlFor='option-decode' className='lbl-option'>Decode</label>
         </li>
       </ul>
-      <div className='btn-container'>      <button type='submit' className='btn-submit'>Submit</button>
-</div>
+      <div className='btn-container'>      
+        <button type='submit' className='btn-submit'>Submit</button>
+      </div>
       <hr></hr>
       <h3>RESULT</h3>
       <p className='error-message'>{errorMessage}</p>
