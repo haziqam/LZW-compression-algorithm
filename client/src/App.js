@@ -30,7 +30,7 @@ function TextForm() {
 
     // Make API request using the inputText
     try {
-      let api = '/api/v1/';
+      let api = 'https://test-deploy-xi-rouge.vercel.app/api/v1/';
 
       // Get user option
       if (selectedOption === 'encode') {
